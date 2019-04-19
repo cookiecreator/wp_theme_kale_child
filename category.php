@@ -10,7 +10,7 @@
 <!-- Full Width Category -->
 <div class="full-width-category">
     <h1 class="block-title"><span><?php single_cat_title(); ?></span></h1>
-    
+    <div class="category teaser"><?php echo category_description(); ?></div>
     <!-- Blog Feed -->
     <div class="blog-feed">
         <?php $kale_i = 0; 
@@ -35,5 +35,4 @@
 </div>
 <!-- /Full Width Category -->
 <hr />
-
 <?php get_footer(); ?>

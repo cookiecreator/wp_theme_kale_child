@@ -3,8 +3,12 @@ Theme Name: Kale Child
 Theme URI: https://github.com/cookiecreator/wp_theme_kale_child
 Author: Caroline Koch
 Template: kale
-Version: 1.9.02.03
+Version: 1.9.04.19
 Text Domain: kale-child
 */
 
 @import url("../kale/style.css");
+
+.category.teaser {
+	text-align:center;
+}
